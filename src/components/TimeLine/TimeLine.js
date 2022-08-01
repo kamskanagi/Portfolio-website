@@ -19,7 +19,7 @@ const Timeline = () => {
 
     if (carouselRef.current) {
       const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
-      
+
       scroll(carouselRef.current, scrollLeft);
     }
   }
@@ -50,7 +50,9 @@ const Timeline = () => {
         experience as well as creating innovative Machine and Deep learning solutions for recommendation systems.
          Analytical team player with excellent problem-solving capability, and quick learner committed to developing software engineering expertise that helps company efficiency.
       </SectionText>
-      <CarouselContainer href= {carouselRef} onScroll={handleScroll}> 
+
+        {/*
+      <CarouselContainer href= {carouselRef} onScroll={handleScroll}>
       <>
         {TimeLineData.map((item, index)=>(
           <CarouselMobileScrollNode key={index} final={index}>
@@ -107,15 +109,15 @@ const Timeline = () => {
             key={index}
             active={activeItem}
             onClick={(e) => handleClick(e, index)}
-            > 
+            >
             <CarouselButtonDot active={activeItem} />
-            
+
           </CarouselButton>
 
         ))}
 
       </CarouselButtons>
-    
+    */}
     </Section>
   );
 };

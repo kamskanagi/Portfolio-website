@@ -7,17 +7,18 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyle
 
 const Header = () =>  (
 <Container>
-
+  {/*
   <Div1>
     <Link href="/">
-      <a style={{marginBottom:"20px"}}> <DiCssdeck size="3rem"/> <span>Kams Portfolio</span></a>
+      // <a style={{marginBottom:"20px"}}> <span>My Portfolio</span></a>
     </Link>
-  </Div1>
+  </Div1> 
+   */}
 
   <Div2>
     <li>
-      <Link href="#projects">
-      <NavLink> Project</NavLink>
+      <Link href="#">
+      <NavLink> My Portfolio</NavLink>
       </Link>
     </li>
     <li>
@@ -33,16 +34,16 @@ const Header = () =>  (
   </Div2>
 
   <Div3>
-    <SocialIcons href="https://github.com">
+    <SocialIcons href="https://github.com/kamskanagi">
       <AiFillGithub size="3rem" />
     </SocialIcons>
-    <SocialIcons href="https://linkedin.com">
+    <SocialIcons href="https://linkedin.com/in/karamo-kanagi-ph-d-14546526/">
       <AiFillLinkedin size="3rem" />
     </SocialIcons>
-    <SocialIcons href="https://instagram.com">
+    <SocialIcons href="https://instagram.com/Pabi">
       <AiFillInstagram size="3rem" />
     </SocialIcons>
-    
+
   </Div3>
 </Container>
 );

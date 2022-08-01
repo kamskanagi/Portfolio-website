@@ -20,6 +20,7 @@ export const Container = styled.div`
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
+    color: rgba(255, 255, 255, 0.75);
   flex-direction: row;
   align-content: center;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -112,7 +113,7 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 `;
 
 
-// Social Icons 
+// Social Icons
 
 export const SocialIcons = styled.a`
 transition: 0.3s ease;
@@ -123,6 +124,6 @@ border-radius: 50px;
     background-color: #212d45;
     transform: scale(1.2);
     cursor: pointer;
-    
+
   }
 `
