@@ -12,12 +12,12 @@ const Header = () =>  (
     <Link href="/">
       // <a style={{marginBottom:"20px"}}> <span>My Portfolio</span></a>
     </Link>
-  </Div1> 
+  </Div1>
    */}
 
   <Div2>
     <li>
-      <Link href="#">
+      <Link href="/">
       <NavLink> My Portfolio</NavLink>
       </Link>
     </li>
@@ -29,6 +29,11 @@ const Header = () =>  (
     <li>
       <Link href="#about">
       <NavLink> About</NavLink>
+      </Link>
+    </li>
+    <li>
+      <Link href="#pub">
+      <NavLink> Publications</NavLink>
       </Link>
     </li>
   </Div2>

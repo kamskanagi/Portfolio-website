@@ -46,9 +46,10 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am a Software Engineer, Full Stack Developer, and Researcher with more than two years of work
+        I am a Software Engineer, Consultant, and Researcher with more than two years of work
         experience as well as creating innovative Machine and Deep learning solutions for recommendation systems.
-         Analytical team player with excellent problem-solving capability, and quick learner committed to developing software engineering expertise that helps company efficiency.
+         Analytical team player with excellent problem-solving capability, and quick learner committed to
+         developing software engineering expertise that helps company efficiency.
       </SectionText>
 
         {/*

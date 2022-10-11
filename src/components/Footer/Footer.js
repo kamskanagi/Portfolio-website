@@ -6,7 +6,7 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 
 const Footer = () => {
   return (
-  <footer>
+  <FooterWrapper>
     <LinkList>
     <LinkColumn>
       <LinkTitle>call</LinkTitle>
@@ -35,7 +35,7 @@ const Footer = () => {
 
     </SocialIconsContainer>
 
-  </footer>
+  </FooterWrapper>
   );
 };
 

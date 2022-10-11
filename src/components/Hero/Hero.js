@@ -1,10 +1,9 @@
 import React from 'react';
-
+import styled from 'styled-components';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
-// import image from './images/photo.jpg';
-
+import { LeftSection, RightSection} from './HeroStyles';
+//import image from './images/photo.jpg';
 
 
 const Hero = (props) => (
@@ -20,9 +19,25 @@ const Hero = (props) => (
 
     </LeftSection>
 
-  
-
+    <RightSection>
+      <div className= "col-2">
+        <img className="object-cover object-center rounded image-responsive" src="images/pic.jpg" />
+     </div>
+        
+    </RightSection>
+    
   </Section>
+
+
 );
+
+// const styles = styled.create({
+//   image: {
+//     width: 150,
+//     height: 150,
+//     borderWidth: 2,
+//     borderRadius: 75
+//   },
+// });
 
 export default Hero;

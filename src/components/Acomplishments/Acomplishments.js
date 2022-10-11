@@ -22,11 +22,13 @@ const data = [
     journal:"Journal of international Cooperation,",
     year: 2015,
   },
- 
+
 ];
 
 const Acomplishments = () => (
-  <Section>
+
+  <Section id="pub">
+    <SectionDivider />
 <SectionTitle>Publications</SectionTitle>
 <div>
   {data.map((card, index) =>(
@@ -34,12 +36,15 @@ const Acomplishments = () => (
       <BoxNum>{card.title}</BoxNum>
       <BoxText>{card.authors}</BoxText>
       <BoxText>{card.journal} {card.year}.</BoxText><br />
-      
+
     </div>
 
-  ))}
+  ))} 
+      
 </div>
-
+  <div>
+    <BoxText> Two more manuscripts under review</BoxText>
+  </div>
   </Section>
 );
 

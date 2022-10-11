@@ -32,6 +32,17 @@ const GlobalStyles = createGlobalStyle`
     list-style: none;
   }
 
+  .col-2 {
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .col-2 img {
+  border-radius: 50%;
+  width: 150%;
+  }
 `;
 
 export default GlobalStyles;

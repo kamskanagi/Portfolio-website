@@ -9,10 +9,11 @@ const Technologies = () =>  (
   <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I have worked with a lot of technologies in the web developement world.
-      From Backend to Frontend Design, AI, Machine Learning and Deep Learning, Blockchain Technology.
+      I have worked with a lot of technologies in the hardware and software industry.
+      From AI, Machine Learning and Deep Learning, Blockchain Technology, Cloud Computing, Backend to Frontend Design,
+      
     </SectionText>
-    <List>
+    {/* <List>
 
       <ListItem>
         <DiReact size="3em">
@@ -61,7 +62,7 @@ const Technologies = () =>  (
           </ListContainer>
         </DiDatabase>
       </ListItem>
-    </List>
+    </List> */}
 
 </Section>
 );
