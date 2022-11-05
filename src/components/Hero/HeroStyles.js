@@ -4,6 +4,7 @@ export const LeftSection = styled.div`
   width: 100%;
   flex-basis: 50%;
   position: relative;
+  margin-top: 50px;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 80%;
@@ -24,7 +25,7 @@ export const RightSection = styled.div`
   width: 100%;
   position: relative;
   display: flex;
-  margin-top:70px;
+  margin-top:20px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
     display: flex;

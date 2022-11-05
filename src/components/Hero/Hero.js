@@ -15,7 +15,7 @@ const Hero = (props) => (
       <SectionText>
         Software Engineer | Researcher | Aspiring Data Scientist
       </SectionText>
-      <Button onClick = {()=> window.location = '/'}> Learn More</Button>
+      {/* <Button onClick = {()=> window.location = '/'}> Learn More</Button> */}
 
     </LeftSection>
 
